@@ -35,18 +35,16 @@ An AI-powered resume analyzer that suggests the best-matched job role by analyzi
 
 ## 📁 Folder Structure
 SmartResume/
-├── app.py # Main Streamlit app
-├── requirements.txt # Python dependencies
-├── README.md # Project description
-└── assets/ # (Optional) Animations or images
-
+├── app.py 
+├── requirements.txt 
+├── README.md
 
 ---
 
 ## 🛠️ Installation & Run Locally
 
 ### Step 1: Clone the repository
-git clone https://github.com/your-username/smart-resume-analyzer.git
+git clone https://github.com/Poojitha-Byatholi/smart-resume-analyzer.git
 cd smart-resume-analyzer
 ### Step 2: Install dependencies
 pip install -r requirements.txt
