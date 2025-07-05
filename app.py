@@ -7,6 +7,7 @@ from streamlit_lottie import st_lottie
 import requests
 from fpdf import FPDF
 import json 
+import tempfile
 
 # Load Lottie animation
 def load_lottieurl(url):
