@@ -3,3 +3,4 @@ PyPDF2
 spacy
 scikit-learn
 pdfplumber
+matplotlib
