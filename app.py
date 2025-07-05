@@ -45,7 +45,18 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 st_lottie(lottie_json, height=250)
-st.title("\U0001F9E0 Smart Resume Analyzer for Job Matching")
+
+# 💡 Custom styled title
+st.markdown(
+    "<h1 style='text-align: center; color: white; font-size: 36px;'>🧠 Smart Resume Analyzer</h1>",
+    unsafe_allow_html=True
+)
+
+st.markdown(
+    "<h3 style='text-align: center; color: white; font-weight: normal;'>for Job Matching</h3>",
+    unsafe_allow_html=True
+)
+
 st.write("Upload your resume and discover which job role suits you best.")
 
 # File upload
