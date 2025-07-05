@@ -1,0 +1,325 @@
+{
+    "Data Scientist": [
+        "Python",
+        "Pandas",
+        "Scikit-learn",
+        "SQL",
+        "Statistics",
+        "Machine Learning"
+    ],
+    "Frontend Developer": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Angular",
+        "Bootstrap"
+    ],
+    "Backend Developer": [
+        "Node.js",
+        "Django",
+        "Spring Boot",
+        "MongoDB",
+        "PostgreSQL",
+        "REST API"
+    ],
+    "Full Stack Developer": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Node.js",
+        "MongoDB"
+    ],
+    "Mobile App Developer": [
+        "Flutter",
+        "React Native",
+        "Kotlin",
+        "Swift",
+        "Dart"
+    ],
+    "DevOps Engineer": [
+        "Docker",
+        "Kubernetes",
+        "CI/CD",
+        "Jenkins",
+        "AWS",
+        "Linux"
+    ],
+    "Cloud Engineer": [
+        "AWS",
+        "Azure",
+        "GCP",
+        "Terraform",
+        "CloudFormation",
+        "DevOps"
+    ],
+    "Machine Learning Engineer": [
+        "Python",
+        "TensorFlow",
+        "PyTorch",
+        "Numpy",
+        "Deep Learning"
+    ],
+    "AI Engineer": [
+        "Python",
+        "NLP",
+        "spaCy",
+        "Transformer",
+        "LLM",
+        "OpenAI"
+    ],
+    "Data Engineer": [
+        "Spark",
+        "Kafka",
+        "ETL",
+        "SQL",
+        "Airflow",
+        "BigQuery"
+    ],
+    "Data Analyst": [
+        "Excel",
+        "SQL",
+        "Power BI",
+        "Tableau",
+        "Python"
+    ],
+    "Business Analyst": [
+        "Excel",
+        "SQL",
+        "Business Analysis",
+        "Requirement Gathering",
+        "UML"
+    ],
+    "QA Engineer": [
+        "Selenium",
+        "JUnit",
+        "TestNG",
+        "Postman",
+        "Bug Tracking",
+        "Automation"
+    ],
+    "Manual Tester": [
+        "Test Case",
+        "Bug Report",
+        "Regression Testing",
+        "Smoke Testing"
+    ],
+    "Automation Tester": [
+        "Selenium",
+        "Cypress",
+        "Python",
+        "Java",
+        "Appium"
+    ],
+    "UI/UX Designer": [
+        "Figma",
+        "Adobe XD",
+        "Sketch",
+        "User Research",
+        "Wireframing"
+    ],
+    "Web Designer": [
+        "HTML",
+        "CSS",
+        "Web Design",
+        "Photoshop",
+        "Responsive Design"
+    ],
+    "Security Analyst": [
+        "Firewalls",
+        "SIEM",
+        "IDS/IPS",
+        "Splunk",
+        "Incident Response"
+    ],
+    "Penetration Tester": [
+        "Kali Linux",
+        "Metasploit",
+        "Nmap",
+        "Burp Suite",
+        "Ethical Hacking"
+    ],
+    "SRE (Site Reliability Engineer)": [
+        "Monitoring",
+        "Incident Management",
+        "Linux",
+        "Cloud",
+        "Prometheus"
+    ],
+    "System Administrator": [
+        "Linux",
+        "Windows Server",
+        "Active Directory",
+        "Shell Scripting"
+    ],
+    "Network Engineer": [
+        "Cisco",
+        "Routing",
+        "Switching",
+        "LAN/WAN",
+        "Firewall"
+    ],
+    "Database Administrator": [
+        "MySQL",
+        "PostgreSQL",
+        "Oracle",
+        "SQL",
+        "Backup & Recovery"
+    ],
+    "Product Manager": [
+        "Roadmapping",
+        "Agile",
+        "Scrum",
+        "Stakeholder Management"
+    ],
+    "Project Manager": [
+        "Agile",
+        "Scrum",
+        "Waterfall",
+        "Planning",
+        "Budgeting"
+    ],
+    "Scrum Master": [
+        "Agile",
+        "Scrum",
+        "Facilitation",
+        "Sprint Planning",
+        "Retrospectives"
+    ],
+    "Technical Writer": [
+        "Documentation",
+        "Markdown",
+        "API Docs",
+        "Tools like Confluence"
+    ],
+    "Solution Architect": [
+        "System Design",
+        "Cloud Architecture",
+        "Integration",
+        "Design Patterns"
+    ],
+    "Technical Support Engineer": [
+        "Troubleshooting",
+        "Customer Service",
+        "Ticketing",
+        "SLA"
+    ],
+    "Blockchain Developer": [
+        "Solidity",
+        "Ethereum",
+        "Smart Contracts",
+        "Web3.js"
+    ],
+    "IoT Engineer": [
+        "Raspberry Pi",
+        "Arduino",
+        "C++",
+        "MQTT",
+        "Sensor Integration"
+    ],
+    "Robotics Engineer": [
+        "ROS",
+        "C++",
+        "Python",
+        "Simulations",
+        "Robot Design"
+    ],
+    "AR/VR Developer": [
+        "Unity",
+        "Unreal",
+        "C#",
+        "3D Modeling",
+        "Oculus"
+    ],
+    "Game Developer": [
+        "Unity",
+        "C#",
+        "Game Mechanics",
+        "Physics Engine"
+    ],
+    "Chatbot Developer": [
+        "Dialogflow",
+        "Rasa",
+        "NLP",
+        "Python",
+        "Bot Framework"
+    ],
+    "Prompt Engineer": [
+        "LLM",
+        "GPT",
+        "Prompt Design",
+        "Zero-shot",
+        "Few-shot"
+    ],
+    "Accessibility Specialist": [
+        "WCAG",
+        "ARIA",
+        "Screen Readers",
+        "HTML Semantics"
+    ],
+    "SEO Specialist": [
+        "Google Analytics",
+        "On-Page SEO",
+        "Keywords",
+        "Technical SEO"
+    ],
+    "Web Performance Engineer": [
+        "Lighthouse",
+        "Core Web Vitals",
+        "CDN",
+        "Minification"
+    ],
+    "BI Developer": [
+        "Power BI",
+        "Tableau",
+        "SQL",
+        "ETL",
+        "Dashboard"
+    ],
+    "ETL Developer": [
+        "Informatica",
+        "Talend",
+        "ETL",
+        "SQL",
+        "Pipelines"
+    ],
+    "API Developer": [
+        "REST",
+        "GraphQL",
+        "Swagger",
+        "Postman",
+        "API Design"
+    ],
+    "Linux Administrator": [
+        "Linux",
+        "Shell Scripting",
+        "Security",
+        "Cron Jobs"
+    ],
+    "CRM Developer": [
+        "Salesforce",
+        "Zoho",
+        "CRM",
+        "Apex",
+        "Workflows"
+    ],
+    "E-Learning Developer": [
+        "LMS",
+        "SCORM",
+        "Articulate",
+        "HTML5",
+        "Instructional Design"
+    ],
+    "Technical Recruiter": [
+        "Tech Hiring",
+        "ATS",
+        "Boolean Search",
+        "Sourcing"
+    ],
+    "IT Consultant": [
+        "System Design",
+        "Client Requirement",
+        "Technology Strategy"
+    ]
+}
