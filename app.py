@@ -50,29 +50,35 @@ st.markdown("""
     <style>
     .main-title-container {
         text-align: center;
-        padding: 20px 10px 10px;
+        padding: 1rem 1rem 0.5rem;
     }
 
     .main-title {
-        font-size: 2.8rem;
+        font-size: 2.5rem;
         font-weight: 800;
-        color: #ffffff;
+        color: #222222;  /* Dark gray, visible on light bg */
         margin-bottom: 0.2rem;
     }
 
     .subtitle {
         font-size: 1.3rem;
-        font-weight: 400;
-        color: #d3d3d3;
+        font-weight: 500;
+        color: #444444;
         margin-top: 0;
+    }
+
+    @media (prefers-color-scheme: dark) {
+        .main-title, .subtitle {
+            color: #ffffff; /* fallback for dark mode */
+        }
     }
 
     @media screen and (max-width: 768px) {
         .main-title {
-            font-size: 7vw;
+            font-size: 6vw;
         }
         .subtitle {
-            font-size: 4.2vw;
+            font-size: 4vw;
         }
     }
     </style>
