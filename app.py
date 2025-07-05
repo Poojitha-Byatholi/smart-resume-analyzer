@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 from streamlit_lottie import st_lottie
 import requests
 from fpdf import FPDF
-import tempfile
+import json 
 
 # Load Lottie animation
 def load_lottieurl(url):
@@ -18,21 +18,13 @@ def load_lottieurl(url):
 lottie_url = "https://assets2.lottiefiles.com/packages/lf20_tfb3estd.json"
 lottie_json = load_lottieurl(lottie_url)
 
-# Define job descriptions and role skills
-job_descriptions = {
-    "Data Analyst": "Analyze datasets using SQL, Python, Excel, Tableau, and Power BI.",
-    "Web Developer": "Build responsive websites and apps using HTML, CSS, JavaScript, React, and Node.js.",
-    "AI Engineer": "Develop machine learning models using Python, TensorFlow, and NLP tools like spaCy.",
-    "DevOps Engineer": "Manage CI/CD pipelines using Docker, Kubernetes, AWS, Jenkins, and Linux.",
-    "UI/UX Designer": "Design user experiences using Figma, Adobe XD, Sketch, and usability testing."
-}
+# ✅ INSERT THIS HERE:
+with open("software_jobs_with_skills.json", "r") as f:
+    role_skills = json.load(f)
 
-role_skills = {
-    "Data Analyst": ["SQL", "Excel", "Tableau", "Power BI", "Python", "Pandas"],
-    "Web Developer": ["HTML", "CSS", "JavaScript", "React", "Node.js", "Django"],
-    "AI Engineer": ["Python", "TensorFlow", "PyTorch", "Machine Learning", "NLP", "spaCy"],
-    "DevOps Engineer": ["Docker", "Kubernetes", "Jenkins", "AWS", "CI/CD", "Linux"],
-    "UI/UX Designer": ["Figma", "Adobe XD", "Sketch", "Wireframes", "Usability Testing"]
+job_descriptions = {
+    role: f"Relevant skills for {role} include: {', '.join(skills)}."
+    for role, skills in role_skills.items()
 }
 
 # Streamlit UI setup
