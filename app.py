@@ -48,38 +48,38 @@ st_lottie(lottie_json, height=250)
 
 st.markdown("""
     <style>
-    .custom-title {
+    .main-title-container {
         text-align: center;
-        margin-top: -20px;
-        margin-bottom: 20px;
+        padding: 20px 10px 10px;
     }
-    .custom-title h1 {
-        font-size: 2.5rem;
+
+    .main-title {
+        font-size: 2.8rem;
         font-weight: 800;
         color: #ffffff;
-        margin: 0;
+        margin-bottom: 0.2rem;
     }
-    .custom-title h2 {
+
+    .subtitle {
         font-size: 1.3rem;
-        font-weight: 500;
-        color: #cccccc;
-        margin: 0;
-        margin-top: 5px;
+        font-weight: 400;
+        color: #d3d3d3;
+        margin-top: 0;
     }
 
     @media screen and (max-width: 768px) {
-        .custom-title h1 {
-            font-size: 6.2vw;
+        .main-title {
+            font-size: 7vw;
         }
-        .custom-title h2 {
-            font-size: 4.5vw;
+        .subtitle {
+            font-size: 4.2vw;
         }
     }
     </style>
 
-    <div class="custom-title">
-        <h1>🧠 Smart Resume Analyzer</h1>
-        <h2>for Job Matching</h2>
+    <div class="main-title-container">
+        <div class="main-title">🧠 Smart Resume Analyzer</div>
+        <div class="subtitle">for Job Matching</div>
     </div>
 """, unsafe_allow_html=True)
 
