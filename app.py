@@ -46,16 +46,41 @@ st.markdown("""
 
 st_lottie(lottie_json, height=250)
 
-# 💡 Custom styled title
-st.markdown(
-    "<h1 style='text-align: center; color: white; font-size: 36px;'>🧠 Smart Resume Analyzer</h1>",
-    unsafe_allow_html=True
-)
+st.markdown("""
+    <style>
+    .title-container {
+        text-align: center;
+        margin-top: -30px;
+        margin-bottom: 10px;
+    }
+    .title-container h1 {
+        font-size: 2.8rem;
+        font-weight: 800;
+        color: #333;
+        margin-bottom: 0.2rem;
+    }
+    .title-container h3 {
+        font-size: 1.5rem;
+        font-weight: 500;
+        color: #666;
+        margin-top: 0;
+    }
 
-st.markdown(
-    "<h3 style='text-align: center; color: white; font-weight: normal;'>for Job Matching</h3>",
-    unsafe_allow_html=True
-)
+    @media (max-width: 768px) {
+        .title-container h1 {
+            font-size: 7vw;
+        }
+        .title-container h3 {
+            font-size: 5vw;
+        }
+    }
+    </style>
+
+    <div class="title-container">
+        <h1>🧠 Smart Resume Analyzer</h1>
+        <h3>for Job Matching</h3>
+    </div>
+""", unsafe_allow_html=True)
 
 st.write("Upload your resume and discover which job role suits you best.")
 
