@@ -1,4 +1,5 @@
 streamlit
+PyPDF2
 spacy
+scikit-learn
 pdfplumber
-numpy==1.24.4
